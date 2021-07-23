@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  align-items: center;
+  padding: 5%;
+  margin: 0 10%;
+  width:30%;
+ height: 25vh;
+}
+.img{
+ width:50%;
+ height: 25vh;
 }
 
 .App-logo {

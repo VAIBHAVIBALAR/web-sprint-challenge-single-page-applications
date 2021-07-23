@@ -20,7 +20,7 @@ const App = () => {
         <Link to="/help">Help</Link>
       </span>
       </header>
-      <div>
+      <div className="App">
         <Switch>
           <Route exact path="/" >
             <Home />
