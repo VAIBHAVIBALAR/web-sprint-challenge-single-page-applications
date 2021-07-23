@@ -31,6 +31,7 @@ describe("Pizza test, sprint 3 challenge", () => {
     );
     expect(history.location.pathname).toBe('/')
     const orderPizza = document.querySelector('#order-pizza')
+    console.log("orderpizz",orderPizza)
     expect(orderPizza).toBeInTheDocument();
     fireEvent.click(orderPizza)
     expect(history.location.pathname).toBe('/pizza')
